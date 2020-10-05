@@ -2,7 +2,7 @@
 
     let pageDetails = {}
 
-    fetch("/pageDetails.json")
+    fetch("/portfolio/pageDetails.json")
     .then(response => response.json())
     .then(data => { 
         pageDetails = data;
