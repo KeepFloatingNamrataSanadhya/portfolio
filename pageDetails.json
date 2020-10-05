@@ -1,0 +1,56 @@
+{
+    "pageTitle": "Keep Floating",
+    "myIntro": "Hey, I'm Namrata Sanadhya",
+    "profileDescription": "Freelance Creative & Professional Graphics Designer and content creator",
+    "categories" : [
+        "All",
+        "Video",
+        "Graphics"
+    ],
+    "introTiles" : [
+        {
+            "heading": "Nature Based Solutions",
+            "subHeading": "Animation Story",
+            "category": "web",
+            "imagePath": "assets/img/NatureBasedSolutions.png",
+            "linkedPage": "natureBasedSolutions.html"
+        },
+        {
+            "heading": "Bio-Cranio Sacral Therapy",
+            "subHeading": "Animation Story",
+            "category": "web",
+            "imagePath": "assets/img/BioDynamicCranioSacralTherapy.png",
+            "linkedPage": "bioCranioSacralTherapy.html"
+        },
+        {
+            "heading": "How to become more Creative - Gyan Kendra",
+            "subHeading": "Animation Story",
+            "category": "web",
+            "imagePath": "assets/img/GyanKendra.png",
+            "linkedPage": "gyanKendra.html"
+        },
+        {
+            "heading": "Power of Consistency - 1",
+            "subHeading": "Animation Story",
+            "category": "web",
+            "imagePath": "assets/img/Consistency_1_PracitisingEveryday.png",
+            "linkedPage": "powerOfConsistency1.html"
+        },
+        {
+            "heading": "Power of Consistency - 2",
+            "subHeading": "Animation Story",
+            "category": "web",
+            "imagePath": "assets/img/Consistency_2_NerualConnection.png",
+            "linkedPage": "powerOfConsistency2.html"
+        },
+        {
+            "heading": "Power of Consistency - 3",
+            "subHeading": "Animation Story",
+            "category": "web",
+            "imagePath": "assets/img/Consistency_3_boredom.png",
+            "linkedPage": "powerOfConsistency3.html"
+        }
+    ]
+ 
+    
+}
