@@ -2,7 +2,17 @@
 
     let pageDetails = {}
 
-    fetch("/portfolio/pageDetails.json")
+    let detailUrl = '';
+    
+    // Right now a tactical fix to solve the resource problem on local and server
+    if(window.location.origin.indexOf('localhost') > -1 || 
+        window.location.origin.indexOf('127.0.0.1') > -1) {
+        detailUrl = '/pageDetails.json';
+    } else {
+        detailUrl = '/portfolio/pageDetails.json';
+    }
+
+    fetch(detailUrl)
     .then(response => response.json())
     .then(data => { 
         pageDetails = data;
