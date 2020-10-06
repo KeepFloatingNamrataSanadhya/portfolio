@@ -23,8 +23,24 @@
         document.getElementById("pageTitle").innerHTML = pageDetails.pageTitle;
         document.getElementById("myIntro").innerHTML = pageDetails.myIntro;
         document.getElementById("profileDescription").innerHTML = pageDetails.profileDescription;
-
+        resetBelowContextView();
         loadProductGrid()
+    }
+
+    function resetBelowContextView() {
+        let clientSectionElement = document.getElementById("clientSection")
+        let serviceSectionElement = document.getElementById("serviceSection")
+        let testimonialsSectionElement = document.getElementById("testimonialsSection")
+
+        // clientSectionElement.style.display = "none";
+        // serviceSectionElement.style.display = "none";
+        // testimonialsSectionElement.style.display = "none";
+
+        // setTimeout(() => {
+        //     // clientSectionElement.style.display = "";
+        //     // serviceSectionElement.style.display = "";
+        //     // serviceSectionElement.style.display = "";
+        // });
     }
 
     function loadProductGrid() {
